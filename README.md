@@ -1,4 +1,4 @@
-##Cadastro Jogador
+# Cadastro Jogador
 
-Integrante:
-#Clayton Moura
+## Integrante:
+### Clayton Moura
