@@ -24,6 +24,6 @@ app.use(cookieParser())
 app.use(express.json())
 app.use(routes)
 
-app.listen(3003, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("Servidor iniciado com Sucesso")
 })
