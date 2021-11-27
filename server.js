@@ -8,7 +8,7 @@ const routes = require('./src/routes')
 
 const app = express()
 
-mongoose.connect('mongodb://localhost:27017/BackmongoDb', {
+mongoose.connect('mongodb+srv://root:root@cluster0-backmongo.r40qa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useUnifiedTopology: true,
     useNewUrlParser: true
 }, function (err) {
