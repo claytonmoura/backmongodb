@@ -7,7 +7,7 @@ routes.get('/', function (req,res){
     res.json({message: "Bem vindo ao Back End mongo db"})
 })
 
-routes.get('/jogador', JogadorController.index)
+routes.get('/jogadores', JogadorController.index)
 routes.get('/jogador/:_id', JogadorController.detail)
 routes.post('/jogador', JogadorController.store)
 routes.delete('/jogador/:_id', JogadorController.delete)
